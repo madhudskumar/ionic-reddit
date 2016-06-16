@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/ctrl/redit.js"></script>
+  </head>
+  <body ng-app="reddit">
+    <ion-pane>
+      <ion-header-bar class="bar-energized">
+        <h1 class="title">reddit/r/android</h1>
+      </ion-header-bar>
+      <ion-content ng-controller="reditCtrl">
+        <div class="row-no-padding" style="padding:12px;" ng-repeat="story in stories">
+          <a ng-href="{{story.data.url}}" target="_blank">
+            <div class="col-offset-10">{{story.data.title}}</div>
+          </a>
+        </div>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>
