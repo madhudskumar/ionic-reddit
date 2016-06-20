@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WORK</Machine>
+    <WindowsUser>madhu</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>49ea5050-33ec-11e6-9077-9f1c67d5df04</PackageIdentityName>
+    <IntermediateOutputPath>D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>AE33B803F010DB576085F9EE7D542D19459C252807312EC851B9774F89D23D37</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.ionicframework.reddit516702_0.0.1.1_x64__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.ionicframework.reddit516702_h35559jr9hy9m!com.ionicframework.reddit516702</RegisteredUserModeAppID>
+    <RegisteredPackageID>com.ionicframework.reddit516702</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>0.0.1.1</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-16T18:05:14.002</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2016-06-16T18:05:09.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-16T18:01:02.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-16T18:01:02.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <Modified>2016-06-16T18:01:02.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-16T18:01:02.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-16T18:01:02.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <Modified>2016-06-16T18:01:02.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-16T18:01:02.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-16T18:01:02.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-16T18:01:02.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-06-16T18:05:13.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2016-06-16T18:05:10.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\css\style.css">
+      <PackagePath>www\css\style.css</PackagePath>
+      <Modified>2016-06-16T18:05:11.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\img\ionic.png">
+      <PackagePath>www\img\ionic.png</PackagePath>
+      <Modified>2016-06-16T18:05:09.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2016-06-16T18:05:11.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\js\app.js">
+      <PackagePath>www\js\app.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\js\ctrl\redit.js">
+      <PackagePath>www\js\ctrl\redit.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-animate\.bower.json">
+      <PackagePath>www\lib\angular-animate\.bower.json</PackagePath>
+      <Modified>2016-06-16T18:05:09.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-animate\angular-animate.js">
+      <PackagePath>www\lib\angular-animate\angular-animate.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-animate\angular-animate.min.js">
+      <PackagePath>www\lib\angular-animate\angular-animate.min.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-animate\angular-animate.min.js.map">
+      <PackagePath>www\lib\angular-animate\angular-animate.min.js.map</PackagePath>
+      <Modified>2016-06-16T18:05:09.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-animate\bower.json">
+      <PackagePath>www\lib\angular-animate\bower.json</PackagePath>
+      <Modified>2016-06-16T18:05:11.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-animate\index.js">
+      <PackagePath>www\lib\angular-animate\index.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-animate\package.json">
+      <PackagePath>www\lib\angular-animate\package.json</PackagePath>
+      <Modified>2016-06-16T18:05:11.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-animate\README.md">
+      <PackagePath>www\lib\angular-animate\README.md</PackagePath>
+      <Modified>2016-06-16T18:05:09.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-sanitize\.bower.json">
+      <PackagePath>www\lib\angular-sanitize\.bower.json</PackagePath>
+      <Modified>2016-06-16T18:05:09.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-sanitize\angular-sanitize.js">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-sanitize\angular-sanitize.min.js">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.min.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-sanitize\angular-sanitize.min.js.map">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.min.js.map</PackagePath>
+      <Modified>2016-06-16T18:05:09.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-sanitize\bower.json">
+      <PackagePath>www\lib\angular-sanitize\bower.json</PackagePath>
+      <Modified>2016-06-16T18:05:11.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-sanitize\index.js">
+      <PackagePath>www\lib\angular-sanitize\index.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-sanitize\package.json">
+      <PackagePath>www\lib\angular-sanitize\package.json</PackagePath>
+      <Modified>2016-06-16T18:05:11.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-sanitize\README.md">
+      <PackagePath>www\lib\angular-sanitize\README.md</PackagePath>
+      <Modified>2016-06-16T18:05:09.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\.bower.json">
+      <PackagePath>www\lib\angular-ui-router\.bower.json</PackagePath>
+      <Modified>2016-06-16T18:05:09.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\api\angular-ui-router.d.ts">
+      <PackagePath>www\lib\angular-ui-router\api\angular-ui-router.d.ts</PackagePath>
+      <Modified>2016-06-16T18:05:09.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\bower.json">
+      <PackagePath>www\lib\angular-ui-router\bower.json</PackagePath>
+      <Modified>2016-06-16T18:05:11.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\CHANGELOG.md">
+      <PackagePath>www\lib\angular-ui-router\CHANGELOG.md</PackagePath>
+      <Modified>2016-06-16T18:05:09.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\CONTRIBUTING.md">
+      <PackagePath>www\lib\angular-ui-router\CONTRIBUTING.md</PackagePath>
+      <Modified>2016-06-16T18:05:09.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\LICENSE">
+      <PackagePath>www\lib\angular-ui-router\LICENSE</PackagePath>
+      <Modified>2016-06-16T18:05:09.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\README.md">
+      <PackagePath>www\lib\angular-ui-router\README.md</PackagePath>
+      <Modified>2016-06-16T18:05:09.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\release\angular-ui-router.js">
+      <PackagePath>www\lib\angular-ui-router\release\angular-ui-router.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\release\angular-ui-router.min.js">
+      <PackagePath>www\lib\angular-ui-router\release\angular-ui-router.min.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\src\common.js">
+      <PackagePath>www\lib\angular-ui-router\src\common.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\src\resolve.js">
+      <PackagePath>www\lib\angular-ui-router\src\resolve.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\src\state.js">
+      <PackagePath>www\lib\angular-ui-router\src\state.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\src\stateDirectives.js">
+      <PackagePath>www\lib\angular-ui-router\src\stateDirectives.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\src\stateFilters.js">
+      <PackagePath>www\lib\angular-ui-router\src\stateFilters.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\src\templateFactory.js">
+      <PackagePath>www\lib\angular-ui-router\src\templateFactory.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\src\urlMatcherFactory.js">
+      <PackagePath>www\lib\angular-ui-router\src\urlMatcherFactory.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\src\urlRouter.js">
+      <PackagePath>www\lib\angular-ui-router\src\urlRouter.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\src\view.js">
+      <PackagePath>www\lib\angular-ui-router\src\view.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\src\viewDirective.js">
+      <PackagePath>www\lib\angular-ui-router\src\viewDirective.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular-ui-router\src\viewScroll.js">
+      <PackagePath>www\lib\angular-ui-router\src\viewScroll.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular\.bower.json">
+      <PackagePath>www\lib\angular\.bower.json</PackagePath>
+      <Modified>2016-06-16T18:05:09.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular\angular-csp.css">
+      <PackagePath>www\lib\angular\angular-csp.css</PackagePath>
+      <Modified>2016-06-16T18:05:11.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular\angular.js">
+      <PackagePath>www\lib\angular\angular.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular\angular.min.js">
+      <PackagePath>www\lib\angular\angular.min.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular\angular.min.js.gzip">
+      <PackagePath>www\lib\angular\angular.min.js.gzip</PackagePath>
+      <Modified>2016-06-16T18:05:09.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular\angular.min.js.map">
+      <PackagePath>www\lib\angular\angular.min.js.map</PackagePath>
+      <Modified>2016-06-16T18:05:09.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular\bower.json">
+      <PackagePath>www\lib\angular\bower.json</PackagePath>
+      <Modified>2016-06-16T18:05:11.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular\index.js">
+      <PackagePath>www\lib\angular\index.js</PackagePath>
+      <Modified>2016-06-16T18:05:11.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular\package.json">
+      <PackagePath>www\lib\angular\package.json</PackagePath>
+      <Modified>2016-06-16T18:05:11.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\angular\README.md">
+      <PackagePath>www\lib\angular\README.md</PackagePath>
+      <Modified>2016-06-16T18:05:09.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\.bower.json">
+      <PackagePath>www\lib\ionic\.bower.json</PackagePath>
+      <Modified>2016-06-16T18:05:10.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\bower.json">
+      <PackagePath>www\lib\ionic\bower.json</PackagePath>
+      <Modified>2016-06-16T18:05:12.243</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\css\ionic.css">
+      <PackagePath>www\lib\ionic\css\ionic.css</PackagePath>
+      <Modified>2016-06-16T18:05:12.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\css\ionic.min.css">
+      <PackagePath>www\lib\ionic\css\ionic.min.css</PackagePath>
+      <Modified>2016-06-16T18:05:12.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\fonts\ionicons.eot">
+      <PackagePath>www\lib\ionic\fonts\ionicons.eot</PackagePath>
+      <Modified>2016-06-16T18:05:10.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\fonts\ionicons.svg">
+      <PackagePath>www\lib\ionic\fonts\ionicons.svg</PackagePath>
+      <Modified>2016-06-16T18:05:10.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\fonts\ionicons.ttf">
+      <PackagePath>www\lib\ionic\fonts\ionicons.ttf</PackagePath>
+      <Modified>2016-06-16T18:05:10.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\fonts\ionicons.woff">
+      <PackagePath>www\lib\ionic\fonts\ionicons.woff</PackagePath>
+      <Modified>2016-06-16T18:05:10.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\js\ionic-angular.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\js\ionic-angular.min.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.min.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\js\ionic.bundle.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\js\ionic.bundle.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.min.js</PackagePath>
+      <Modified>2016-06-16T18:05:12.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\js\ionic.js">
+      <PackagePath>www\lib\ionic\js\ionic.js</PackagePath>
+      <Modified>2016-06-16T18:05:13.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\js\ionic.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.min.js</PackagePath>
+      <Modified>2016-06-16T18:05:13.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\README.md">
+      <PackagePath>www\lib\ionic\README.md</PackagePath>
+      <Modified>2016-06-16T18:05:10.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\ionic.scss">
+      <PackagePath>www\lib\ionic\scss\ionic.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\ionicons\ionicons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\ionicons.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.451</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\ionicons\_ionicons-font.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-font.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\ionicons\_ionicons-icons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-icons.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\ionicons\_ionicons-variables.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-variables.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\tsconfig.json">
+      <PackagePath>www\lib\ionic\scss\tsconfig.json</PackagePath>
+      <Modified>2016-06-16T18:05:13.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_action-sheet.scss">
+      <PackagePath>www\lib\ionic\scss\_action-sheet.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_animations.scss">
+      <PackagePath>www\lib\ionic\scss\_animations.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_backdrop.scss">
+      <PackagePath>www\lib\ionic\scss\_backdrop.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_badge.scss">
+      <PackagePath>www\lib\ionic\scss\_badge.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_bar.scss">
+      <PackagePath>www\lib\ionic\scss\_bar.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_button-bar.scss">
+      <PackagePath>www\lib\ionic\scss\_button-bar.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_button.scss">
+      <PackagePath>www\lib\ionic\scss\_button.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_checkbox.scss">
+      <PackagePath>www\lib\ionic\scss\_checkbox.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_form.scss">
+      <PackagePath>www\lib\ionic\scss\_form.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_grid.scss">
+      <PackagePath>www\lib\ionic\scss\_grid.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_items.scss">
+      <PackagePath>www\lib\ionic\scss\_items.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_list.scss">
+      <PackagePath>www\lib\ionic\scss\_list.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_loading.scss">
+      <PackagePath>www\lib\ionic\scss\_loading.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_menu.scss">
+      <PackagePath>www\lib\ionic\scss\_menu.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_mixins.scss">
+      <PackagePath>www\lib\ionic\scss\_mixins.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_modal.scss">
+      <PackagePath>www\lib\ionic\scss\_modal.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_platform.scss">
+      <PackagePath>www\lib\ionic\scss\_platform.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_popover.scss">
+      <PackagePath>www\lib\ionic\scss\_popover.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_popup.scss">
+      <PackagePath>www\lib\ionic\scss\_popup.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_progress.scss">
+      <PackagePath>www\lib\ionic\scss\_progress.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_radio.scss">
+      <PackagePath>www\lib\ionic\scss\_radio.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_range.scss">
+      <PackagePath>www\lib\ionic\scss\_range.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_refresher.scss">
+      <PackagePath>www\lib\ionic\scss\_refresher.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_reset.scss">
+      <PackagePath>www\lib\ionic\scss\_reset.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_scaffolding.scss">
+      <PackagePath>www\lib\ionic\scss\_scaffolding.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_select.scss">
+      <PackagePath>www\lib\ionic\scss\_select.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_slide-box.scss">
+      <PackagePath>www\lib\ionic\scss\_slide-box.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_slides.scss">
+      <PackagePath>www\lib\ionic\scss\_slides.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_spinner.scss">
+      <PackagePath>www\lib\ionic\scss\_spinner.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_tabs.scss">
+      <PackagePath>www\lib\ionic\scss\_tabs.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_toggle.scss">
+      <PackagePath>www\lib\ionic\scss\_toggle.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_transitions.scss">
+      <PackagePath>www\lib\ionic\scss\_transitions.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_type.scss">
+      <PackagePath>www\lib\ionic\scss\_type.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_util.scss">
+      <PackagePath>www\lib\ionic\scss\_util.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\lib\ionic\scss\_variables.scss">
+      <PackagePath>www\lib\ionic\scss\_variables.scss</PackagePath>
+      <Modified>2016-06-16T18:05:10.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\plugins\cordova-plugin-console\www\console-via-logger.js">
+      <PackagePath>www\plugins\cordova-plugin-console\www\console-via-logger.js</PackagePath>
+      <Modified>2016-06-16T18:05:13.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\plugins\cordova-plugin-console\www\logger.js">
+      <PackagePath>www\plugins\cordova-plugin-console\www\logger.js</PackagePath>
+      <Modified>2016-06-16T18:05:13.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</PackagePath>
+      <Modified>2016-06-16T18:05:13.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\plugins\cordova-plugin-device\www\device.js">
+      <PackagePath>www\plugins\cordova-plugin-device\www\device.js</PackagePath>
+      <Modified>2016-06-16T18:05:13.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\plugins\cordova-plugin-splashscreen\www\splashscreen.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\splashscreen.js</PackagePath>
+      <Modified>2016-06-16T18:05:13.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js</PackagePath>
+      <Modified>2016-06-16T18:05:13.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js</PackagePath>
+      <Modified>2016-06-16T18:05:13.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\plugins\cordova-plugin-statusbar\www\statusbar.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\www\statusbar.js</PackagePath>
+      <Modified>2016-06-16T18:05:13.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js">
+      <PackagePath>www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js</PackagePath>
+      <Modified>2016-06-16T18:05:13.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\pending\ionic\reddit\platforms\windows\build\windows\release\x64\win10\ilc\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2016-06-16T18:05:10.959</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
