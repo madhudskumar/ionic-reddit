@@ -1,4 +1,4 @@
-var app = angular.module('reddit', ['ionic']);
+var app = angular.module('reddit', ['ionic', 'angularMoment']);
 
 app.run(function ($ionicPlatform) {
     $ionicPlatform.ready(function () {

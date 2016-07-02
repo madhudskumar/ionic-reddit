@@ -10,6 +10,8 @@
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/moment/moment.js"></script>
+    <script src="lib/angular-moment/angular-moment.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
@@ -20,19 +22,24 @@
   </head>
   <body ng-app="reddit">
     <ion-pane>
-      <ion-header-bar class="bar bar-header bar-positive">
+      <ion-header-bar class="bar bar-header bar-stable">
         <h1 class="title">r/new</h1>
       </ion-header-bar>
       <ion-content ng-controller="reditCtrl">
+        <ion-refresher pulling-text="Refresh" on-refresh="refresh()"></ion-refresher>
         <div class="list" ng-repeat="story in stories">
-          <a class="item" href="{{story.data.url}}" style="padding:0;margin:auto;" ng-if="story.data.thumbnail.startsWith('http')" ng-repeat="story in stories" target="_blank">
+          <a class="item" ng-href="{{story.data.url}}" style="padding:0;margin:auto;" target="_blank">
             <div class="item-thumbnail-left">
               <img ng-src="{{story.data.thumbnail}}" style="margin: auto">
-              <h2 style="text-align:left;white-space: normal;height:3em">{{story.data.title}}</h2>
-              <p  style="text-align:left">{{story.data.author}}</p>
+              <h2 style="text-align:left;white-space: normal;">{{story.data.title}}</h2>
+              <div style="position: absolute;bottom: 0;">
+                <span am-time-ago="story.data.created_utc" am-preprocess="unix"></span>
+                <p  style="text-align:left;display: inline;">{{story.data.author}}</p>
+              </div>
             </div>
           </a>
         </div>
+        <ion-infinite-scroll on-infinite="load()" distance="1%"></ion-infinite-scroll>
       </ion-content>
     </ion-pane>
   </body>
