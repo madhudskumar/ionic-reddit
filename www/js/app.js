@@ -5,5 +5,8 @@ app.run(function ($ionicPlatform) {
         if (window.StatusBar) {
             StatusBar.styleDefault();
         }
+        if(window.cordova && window.cordova.InAppBrowser){
+          window.open = window.cordova.InAppBrowser.open;
+        }
     });
 });

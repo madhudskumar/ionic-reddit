@@ -21,6 +21,10 @@ app.controller('reditCtrl', function ($scope, $http) {
     $scope.$broadcast('scroll.refreshComplete');
   };
 
+  $scope.openLink = function(url){
+    window.open(url, '_blank');
+  };
+
   function loadStories(params, callback){
     $http.get("https://www.reddit.com/r/all/new.json", {params:params})
       .success(function (response) {

@@ -28,7 +28,7 @@
       <ion-content ng-controller="reditCtrl">
         <ion-refresher pulling-text="Refresh" on-refresh="refresh()"></ion-refresher>
         <div class="list" ng-repeat="story in stories">
-          <a class="item" ng-href="{{story.data.url}}" style="padding:0;margin:auto;" target="_blank">
+          <a class="item" ng-click="openLink(story.data.url)" style="padding:0;margin:auto;" target="_blank">
             <div class="item-thumbnail-left">
               <img ng-src="{{story.data.thumbnail}}" style="margin: auto">
               <h2 style="text-align:left;white-space: normal;">{{story.data.title}}</h2>
